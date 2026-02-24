@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply bg-slate-800 text-white font-medium py-2 px-4 rounded hover:bg-slate-700 transition shadow-sm;
+    }
+    .form-input {
+        @apply border-gray-300 rounded-md shadow-sm focus:ring-blue-500 w-full;
+    }
+    .form-label {
+        @apply block text-sm font-medium text-gray-700 mb-1;
+    }
+}
